@@ -44,8 +44,8 @@ print(documents)
 
 # Additional Inforamtion
 
-You can aslo directly run the Scrapper.py file it will ask you for the website link and the prompt. As the output you will receive the Content from the website in Json format that you have asked for.
+You can aslo directly run the scraper.py file it will ask you for the website link and the prompt. As the output you will receive the Content from the website in Json format that you have asked for.
 
-command: python scrapper.py
+command: python scraper.py
 
 
