@@ -41,3 +41,11 @@ documents = client.scrape(url)
 # Output the results
 print(documents)
 
+
+# Additional Inforamtion
+
+You can aslo directly run the Scrapper.py file it will ask you for the website link and the prompt. As the output you will receive the Content from the website in Json format that you have asked for.
+
+command: python scrapper.py
+
+
