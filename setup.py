@@ -3,19 +3,13 @@ from setuptools import setup, find_packages
 setup(
     name='Rufus',
     version='0.1.0',
-    packages=['.'],  # Specifies that the current directory should be treated as a package
+    packages=find_packages(),
     install_requires=[
-        'playwright', 
-        'sentence-transformers',  # Assuming these are your dependencies
+        'playwright', 'sentence-transformers', 'asyncio', 'urllib'
     ],
-<<<<<<< HEAD
-    author='Your Name',
-    author_email='your.email@example.com',
-=======
     author='Shrishailya chavan',
     author_email='shrichavan19@gmail.com',
->>>>>>> 80cf360bf0105e9ee67e0f7583b96ecc7152bc22
-    description='A package for web scraping and data extraction.',
+    description='A package for intelligent web scraping and data extraction based on user prompts.',
     keywords='web scraping, data extraction, AI',
-    url='https://example.com/RufusPackage'
+    url='https://github.com/yourusername/Rufus'
 )
